@@ -141,7 +141,7 @@ const config = {
   		}
   	}
   },
-  variants: (/* your legacy variants function */)(),
+  variants: {},
   plugins: [require('tailwindcss-rtl'), require('tailwindcss-animate')],
 } satisfies Config
 
