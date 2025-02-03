@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss" 
 
 const config = {
@@ -142,6 +141,7 @@ const config = {
   		}
   	}
   },
+  variants: (/* your legacy variants function */)(),
   plugins: [require('tailwindcss-rtl'), require('tailwindcss-animate')],
 } satisfies Config
 
