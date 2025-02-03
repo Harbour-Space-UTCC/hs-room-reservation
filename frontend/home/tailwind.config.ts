@@ -1,5 +1,18 @@
+
+import { BsLadder } from "react-icons/bs"
 import type { Config } from "tailwindcss" 
 
+const primitiveColors = {
+	white: '#ffffff',
+	black: '#000000',
+	transperent: "transparent",
+  	current: "currentColor",
+	purple: {
+		50: '#f0eff9',
+		100:'#e1dff3',
+		300: '#cac6eb',
+	},
+};
 const config = {
   darkMode: ["class"],
   content: [
@@ -141,7 +154,6 @@ const config = {
   		}
   	}
   },
-  variants: {},
   plugins: [require('tailwindcss-rtl'), require('tailwindcss-animate')],
 } satisfies Config
 
