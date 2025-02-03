@@ -143,6 +143,6 @@ const config: Config = {
   	}
   },
   plugins: [require('tailwindcss-rtl'), require('tailwindcss-animate')],
-} satisfies Config
+} 
 
 export default config
